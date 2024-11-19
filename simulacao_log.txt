@@ -1,0 +1,37 @@
+Log da Simulação de Gerenciamento de E/S com Interrupções
+==================================================
+
+[Tempo 0] - Processo principal ID: 1 em execução. Operação #1.
+[Tempo 1] - Processo principal ID: 1 em execução. Operação #2.
+[Tempo 2] - Processo principal ID: 1 em execução. Operação #3.
+[Tempo 3] - Processo principal ID: 1 em execução. Operação #4.
+[Tempo 4] - Processo principal ID: 1 em execução. Operação #5.
+[Tempo 5] - Interrupção gerada por Alto-Falante - Prioridade: 5.
+[Tempo 5] - Interrupção: Alto-Falante - Prioridade: 5 - Armazenando contexto do processo ID: 1 - Estado Atual: {'estado': 'Executando', 'contadorOperacoes': 5}.
+[Tempo 5] - Tratando a interrupção do Alto-Falante - Tempo Estimado: 1 ciclos.
+[Tempo 6] - Interrupção tratada. Restaurando contexto do processo ID: 1.
+[Tempo 6] - Processo principal ID: 1 em execução. Operação #6.
+[Tempo 7] - Processo principal ID: 1 em execução. Operação #7.
+[Tempo 8] - Processo principal ID: 1 em execução. Operação #8.
+[Tempo 9] - Processo principal ID: 1 em execução. Operação #9.
+[Tempo 10] - Interrupção gerada por Disco - Prioridade: 3.
+[Tempo 10] - Interrupção: Disco - Prioridade: 3 - Armazenando contexto do processo ID: 1 - Estado Atual: {'estado': 'Executando', 'contadorOperacoes': 9}.
+[Tempo 10] - Tratando a interrupção do Disco - Tempo Estimado: 4 ciclos.
+[Tempo 14] - Interrupção tratada. Restaurando contexto do processo ID: 1.
+[Tempo 14] - Processo principal ID: 1 em execução. Operação #10.
+[Tempo 15] - Processo principal ID: 1 em execução. Operação #11.
+[Tempo 16] - Interrupção gerada por Disco - Prioridade: 3.
+[Tempo 16] - Interrupção: Disco - Prioridade: 3 - Armazenando contexto do processo ID: 1 - Estado Atual: {'estado': 'Executando', 'contadorOperacoes': 11}.
+[Tempo 16] - Tratando a interrupção do Disco - Tempo Estimado: 4 ciclos.
+[Tempo 20] - Interrupção tratada. Restaurando contexto do processo ID: 1.
+[Tempo 20] - Processo principal ID: 1 em execução. Operação #12.
+[Tempo 21] - Processo principal ID: 1 em execução. Operação #13.
+[Tempo 22] - Processo principal ID: 1 em execução. Operação #14.
+[Tempo 23] - Processo principal ID: 1 em execução. Operação #15.
+[Tempo 24] - Processo principal ID: 1 em execução. Operação #16.
+[Tempo 25] - Processo principal ID: 1 em execução. Operação #17.
+[Tempo 26] - Processo principal ID: 1 em execução. Operação #18.
+[Tempo 27] - Processo principal ID: 1 em execução. Operação #19.
+[Tempo 28] - Processo principal ID: 1 em execução. Operação #20.
+
+Tempo total gasto em interrupções: 9 ciclos.

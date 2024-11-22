@@ -5,11 +5,7 @@ Este projeto é uma simulação de um sistema operacional que gerencia operaçõ
 
 ## Funcionalidades
 
-- **Simulação de dispositivos de E/S**:Execução do Programa
-Para executar a simulação, use o comando:
-
-bash
-
+- **Simulação de dispositivos de E/S**:
   - Teclado, Impressora, Disco, Mouse, Alto-Falante.
   - Prioridades diferentes para cada dispositivo.
 - **Interrupções aleatórias**:

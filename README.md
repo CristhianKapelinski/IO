@@ -5,7 +5,11 @@ Este projeto é uma simulação de um sistema operacional que gerencia operaçõ
 
 ## Funcionalidades
 
-- **Simulação de dispositivos de E/S**:
+- **Simulação de dispositivos de E/S**:Execução do Programa
+Para executar a simulação, use o comando:
+
+bash
+
   - Teclado, Impressora, Disco, Mouse, Alto-Falante.
   - Prioridades diferentes para cada dispositivo.
 - **Interrupções aleatórias**:
@@ -92,6 +96,7 @@ Log da Simulação de Gerenciamento de E/S com Interrupções
 [Tempo 3] - Interrupção tratada. Restaurando contexto do processo ID: 1.
 [Tempo 3] - Processo principal ID: 1 em execução. Operação #2.
 ```
+
 ## Licença
 
 Este projeto é licenciado sob a [MIT License](LICENSE).
